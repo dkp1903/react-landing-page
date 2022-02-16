@@ -5,3 +5,19 @@
 
     padding: 2rem 6rem;
 }
+
+.gpt3__navbar-links {
+    flex: 1; /* This means that all its flex siblings will have width equal to their content. This dude will occupy the rest of the width*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gpt3__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.gpt3__navbar-links_logo img{
+    width: 62.56px;
+    height: 16.02px;
+}
